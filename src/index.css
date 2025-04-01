@@ -55,7 +55,7 @@ button:focus-visible {
 }
 
 .element {
-  height: 50px;
+  width: 100%;
   border: 1px solid black;
   display: flex;
   justify-content: center;
@@ -68,9 +68,9 @@ button:focus-visible {
 
 .container {
   width: 500px;
-  height: 500px;
   overflow-y: scroll;
   border: 1px solid black;
+  overflow-x: hidden;
 }
 
 @media (prefers-color-scheme: light) {
